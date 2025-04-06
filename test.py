@@ -15,5 +15,5 @@ model = joblib.load("sentiment_model.pkl")
 predictions = model.predict(X_test)
 
 # Evaluate the model
-accuracy = accuracy_score(y_test, predictions)
+accuracy = accuracy_score(y_test, predictions
 print("Accuracy on twitter data: {:.2f}%".format(accuracy * 100))
